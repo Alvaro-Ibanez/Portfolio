@@ -1,0 +1,174 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1.6;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar ul li {
+    margin: 0 1em;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 5em 2em;
+    margin-top: 5em;
+}
+
+#portada {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2em;
+}
+
+#portada h1 {
+
+    font-size: 50px;
+    
+}
+#portada p  {
+
+    font-size: 20px;
+    
+}
+#portada p1  {
+
+    font-size: 20px;
+    
+}
+#portada .perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 65%;
+    margin-top: 1em;
+    object-fit: cover;
+}
+
+#portada .redes-sociales {
+    margin-top: 1.5em; 
+}
+
+.redes-sociales a {
+    
+    margin: 0 2em;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.redes-sociales a:hover {
+    background-color: #922e2e;
+    color: white;
+}
+
+#trabajos {
+    text-align: center;
+    background: #242525;
+    color: #ffffff;
+}
+
+#trabajos .trabajo {
+    margin-bottom: 2em;
+    text-align: center;
+    
+}
+
+#trabajos  h2 {
+   font-size: 50px;
+    
+}
+
+#trabajos  h3 {
+    font-size: 30px;
+     
+ }
+
+#estudios {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1em;
+}
+
+
+#estudios h2 {
+
+    font-size: 50px;
+}
+
+#estudios .uni {
+    width: 200px;
+    height: 200px;
+    border-radius: 65%;
+    margin-top: 1em;
+    object-fit: cover;
+}
+
+#estudios p1 {
+    font-size: 25px;
+}
+#estudios p2{
+    font-size: 20px;
+}
+#estudios p3{
+    font-size: 15px;
+}
+
+#contacto {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contacto a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacto a:hover {
+    color: #007acc;
+}
+
+#contacto h2{
+
+    font-size: 50px;
+}
+
+#contacto a.email-link {
+    color: rgb(53, 6, 224); /* Mantiene el color del texto */
+    text-decoration: underline; /* Subraya el texto */
+    text-decoration-color: rgb(53, 6, 224); /* Color del subrayado en negro */
+}
+
+#contacto a.email-link:hover {
+    text-decoration-color: rgb(53, 6, 224); /* Color del subrayado en negro al pasar el mouse */
+    color: rgb(53, 6, 224); /* Mantiene el color del texto al pasar el mouse */
+}
+
